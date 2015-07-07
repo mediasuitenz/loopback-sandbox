@@ -7,13 +7,6 @@
       "./models"
     ]
   },
-  "User": {
-    "dataSource": "db"
-  },
-  "AccessToken": {
-    "dataSource": "db",
-    "public": false
-  },
   "ACL": {
     "dataSource": "db",
     "public": false
@@ -25,5 +18,10 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "contract": {
+    "dataSource": "db",
+    "public": true
   }
 }
+

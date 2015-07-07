@@ -1,6 +1,11 @@
 {
   "db": {
     "name": "db",
-    "connector": "memory"
+    "connector": "mssql",
+    "host": "localhost",
+    "database": "database",
+    "username": "username",
+    "password": "password",
+    "debug": true
   }
 }

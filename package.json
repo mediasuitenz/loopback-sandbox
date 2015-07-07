@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
+    "start": "node server/server.js",
     "pretest": "jshint ."
   },
   "dependencies": {
@@ -11,6 +12,7 @@
     "errorhandler": "^1.1.1",
     "loopback": "^2.14.0",
     "loopback-boot": "^2.6.5",
+    "loopback-connector-mssql": "^2.1.0",
     "loopback-datasource-juggler": "^2.19.0",
     "strong-express-metrics": "^1.1.0",
     "serve-favicon": "^2.0.1"
